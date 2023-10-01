@@ -3,6 +3,6 @@ while read oldrev newrev ref
     do
         if [[ $ref =~ .*/master$ ]];
         then
-            curl -X GET "http://LOGIN:PASSWORD@JENKINS_URL/job/JOB_NAME/build?token=TOKEN"
+            curl -X GET ...
         fi
     done
